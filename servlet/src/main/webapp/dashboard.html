@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .navbar ul {
+      overflow: auto;
+    }
+
+    .logout {
+      border-radius: 15px;
+      float: right;
+      color: white;
+      padding: 0px 10px;
+    }
+
+    /* .navbar logout {
+      border: 2px solid black;
+      border-radius: 14px;
+      padding: 3px 18px;
+      width: 130px;
+    } */
+
+    body {
+      font-family: arial;
+      background-color: #fff;
+    }
+    .main {
+      margin: 2%;
+    }
+
+    .card {
+      width: 20%;
+      display: inline-block;
+      box-shadow: 3px 3px 5px black;
+      border-radius: 10px;
+      margin: 2%;
+    }
+
+    .image img {
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    .title {
+      text-align: center;
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .des {
+      padding: 3px;
+      text-align: justify;
+      padding: 10px 12px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    .btn {
+      text-align: center;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      display: block;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <div class="logout">
+            <a href="logout.html" class="btn btn-primary">Logout</a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div>
+        <h1 style="text-align: center; padding: 20px">ATM INTERFACE</h1>
+      </div>
+
+      <!--cards -->
+
+      <div class="card">
+        <div class="image">
+          <img src="withdraw.jpg" />
+        </div>
+        <div class="title">
+          <h1>Withdraw</h1>
+        </div>
+        <div class="des">
+          <p>
+            <!-- "withdraw funds anywhere, anytime, for ultimate
+            convenience and flexibility." -->
+            "withdraw funds securely, effortlessly, and conveniently from your
+            account."
+          </p>
+        </div>
+        <a href="withdraw_money.html" class="btn btn-primary">Cash Withdraw</a>
+      </div>
+      <!--cards -->
+
+      <!--cards -->
+
+      <div class="card">
+        <div class="image">
+          <img src="deposit.jpg" />
+        </div>
+        <div class="title">
+          <h1>Deposit</h1>
+        </div>
+        <div class="des">
+          <p>
+            "Deposit funds securely, effortlessly, and conveniently into your
+            account."
+          </p>
+        </div>
+        <a href="deposit_money.html" class="btn btn-primary">Cash Deposit</a>
+      </div>
+      <!--cards -->
+
+      <!--cards -->
+
+      <div class="card">
+        <div class="image">
+          <img src="transfer_money.jpg" />
+        </div>
+        <div class="title">
+          <h1>Transfer Money</h1>
+        </div>
+        <div class="des">
+          <p>
+            "Effortlessly transfer funds securely with just a few clicks."
+          </p>
+        </div>
+        <a href="transfer_money.html" class="btn btn-primary">Transfer Money</a>
+      </div>
+      <!--cards -->
+
+      <!--cards -->
+
+      <div class="card">
+        <div class="image">
+          <img src="balance.jpg" />
+        </div>
+        <div class="title">
+          <h1>Check Balance</h1>
+        </div>
+        <div class="des">
+          <p>
+            "Instantly view your account balance and recent transactions securely."
+          </p>
+        </div>
+        <a href="check_bal.html" class="btn btn-primary">Check Balance</a>
+      </div>
+      <!--cards -->
+    </div>
+  </body>
+</html>
